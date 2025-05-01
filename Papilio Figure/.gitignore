@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+
+# Environment Files
+.env
+*.env
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/dist/
+/build/
+
+# React Build Files
+/build/

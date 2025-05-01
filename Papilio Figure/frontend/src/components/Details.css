@@ -1,0 +1,118 @@
+.Details {
+    background: #29222A;
+    border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.Details .block {
+    color: white;
+    font-size: 12px;
+    line-height: 0;
+}
+
+.Details .button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    transition: transform 0.2s;
+    width: 100%;
+}
+
+.Details .button:hover {
+    transform: scale(1.01);
+}
+
+.Details .buttons {
+    border-bottom: 1px solid #bbb;
+    display: flex;
+    gap: 10px;
+}
+
+.Details .collection {
+    background-color: #FF66A2;
+}
+
+.Details .collection:hover {
+    background-color: #FF7FBB;
+}
+
+.Details .column {
+    display: flex;
+    gap: 30px;
+}
+
+.Details .column div {
+    width: 100%;
+}
+
+.Details .description {
+    color: #CFB8E0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.Details .detail {
+    color: #CFB8E0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Details .details {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.Details .divider {
+    margin-top: 10px;
+}
+
+.Details .image {
+    flex: 1;
+}
+
+.Details .image img {
+    border-radius: 10px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.Details .info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Details .name {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.Details p {
+    text-align: left;
+}
+
+.Details .price {
+    color: #CFB8E0;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px 0px 25px 0px;
+}
+
+.Details .wishlist {
+    background-color: #BC66FF;
+}
+
+.Details .wishlist:hover {
+    background-color: #D57FFF;
+}

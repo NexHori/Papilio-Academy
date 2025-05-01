@@ -1,0 +1,48 @@
+.Settings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Settings h1 {
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+	color: white;
+}
+
+.Settings .card {
+	background: #26222A;
+	padding: 2rem;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+}
+
+.Settings .card h2 {
+	font-size: 1.4rem;
+	margin-bottom: 0.5rem;
+	color: white;
+}
+
+.Settings .card .note {
+	font-size: 0.95rem;
+	color: gray;
+	margin-bottom: 1rem;
+}
+
+.Settings .card select {
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	cursor: pointer;
+	transition: border-color 0.2s;
+}
+
+.Settings .card select:hover {
+	border-color: #888;
+}

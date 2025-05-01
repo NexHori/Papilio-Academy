@@ -1,0 +1,15 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A171C;
+    margin: 0;
+    padding: 0;
+	color: white;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

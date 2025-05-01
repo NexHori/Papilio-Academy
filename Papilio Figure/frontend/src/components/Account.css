@@ -1,0 +1,53 @@
+.Account {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px 40px;
+    background: #26222A;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.Account h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Account .input-field {
+    margin-bottom: 15px;
+}
+
+.Account input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Account button {
+    width: 100%;
+    padding: 12px;
+    background-color: #BC66FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.Account button:hover {
+    background-color: #D57FFF;
+    transform: scale(1.01);
+}
+
+.Account p {
+    text-align: center;
+}
+
+.Account p a {
+    color: #BC66FF;
+    text-decoration: underline;
+}

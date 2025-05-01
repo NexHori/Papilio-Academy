@@ -1,0 +1,21 @@
+.Wishlist h1 {
+	text-align: center;
+}
+
+.Wishlist p {
+	text-align: center;
+}
+
+.Wishlist .button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Wishlist .button:hover {
+    background-color: #cc0000;
+}

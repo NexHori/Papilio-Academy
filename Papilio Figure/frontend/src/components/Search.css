@@ -1,0 +1,22 @@
+.Search {
+    text-align: center;
+}
+
+.Search .bar input {
+    padding: 0.5rem;
+    width: 300px;
+    font-size: 1rem;
+}
+
+.Search .results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.Search .error {
+    color: red;
+    font-weight: bold;
+}
